@@ -126,20 +126,21 @@
 
 
   
-  <meta name="keywords" content="Hexo, NexT, will, blog" />
+  <meta name="keywords" content="nexo,next,background," />
 
 
-<meta name="description" content="Where There Is A Will, There Is A Way">
-<meta property="og:type" content="website">
-<meta property="og:title" content="comment">
-<meta property="og:url" content="http://yoursite.com/comment/index.html">
+<meta name="description" content="这篇文章主要目的是为Nexo的NexT主题添加动态背景，非常简单，但是添加以后的样子会好看一些，因为主题本身周围的空比较大，显得有些单薄。">
+<meta name="keywords" content="nexo,next,background">
+<meta property="og:type" content="article">
+<meta property="og:title" content="为Nexo的Next主题添加动态背景">
+<meta property="og:url" content="http://yoursite.com/2017/12/23/addBackgraound/index.html">
 <meta property="og:site_name" content="Will 的博客">
-<meta property="og:description" content="Where There Is A Will, There Is A Way">
+<meta property="og:description" content="这篇文章主要目的是为Nexo的NexT主题添加动态背景，非常简单，但是添加以后的样子会好看一些，因为主题本身周围的空比较大，显得有些单薄。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-02-03T08:31:02.448Z">
+<meta property="og:updated_time" content="2018-02-03T09:09:08.454Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="comment">
-<meta name="twitter:description" content="Where There Is A Will, There Is A Way">
+<meta name="twitter:title" content="为Nexo的Next主题添加动态背景">
+<meta name="twitter:description" content="这篇文章主要目的是为Nexo的NexT主题添加动态背景，非常简单，但是添加以后的样子会好看一些，因为主题本身周围的空比较大，显得有些单薄。">
 
 
 
@@ -148,7 +149,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/comment/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/12/23/addBackgraound/"/>
 
 
 
@@ -157,7 +158,7 @@
     sidebar: "",
   };
 </script>
-  <title>comment | Will 的博客</title>
+  <title>为Nexo的Next主题添加动态背景 | Will 的博客</title>
   
 
 
@@ -353,33 +354,185 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/12/23/addBackgraound/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Will">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Will 的博客">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">comment</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
+          <h1 class="post-title" itemprop="name headline">为Nexo的Next主题添加动态背景</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-23T01:01:24-08:00">2017-12-23</time>
+            
+
+            
+            
+
+            
+          </span>
+
           
-        
-      </div>
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/nexo/" itemprop="url" rel="index"><span itemprop="name">nexo</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/12/23/addBackgraound/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/12/23/addBackgraound/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p>这篇文章主要目的是为Nexo的NexT主题添加动态背景，非常简单，但是添加以后的样子会好看一些，因为主题本身周围的空比较大，显得有些单薄。<br><a id="more"></a></p>
+<p>##添加方法<br>打开<code>next/layout/_layout.swag</code>文件，在<code>&lt;body&gt;&lt;/body&gt;</code>标签之中的任意地方添加</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if theme.canvas_nest %&#125;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure>
+<p>打开主题配置文件</p>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/nexo/" rel="tag"># nexo</a>
+          
+            <a href="/tags/next/" rel="tag"># next</a>
+          
+            <a href="/tags/background/" rel="tag"># background</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/12/10/makefile/" rel="next" title="如何使用Make编写MakeFile">
+                <i class="fa fa-chevron-left"></i> 如何使用Make编写MakeFile
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/01/10/Hexo/" rel="prev" title="使用Hexo搭建静态博客">
+                使用Hexo搭建静态博客 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -707,9 +860,9 @@
   
     <script type="text/javascript">
       var disqus_config = function () {
-        this.page.url = 'http://yoursite.com/comment/index.html';
-        this.page.identifier = 'comment/index.html';
-        this.page.title = 'comment';
+        this.page.url = 'http://yoursite.com/2017/12/23/addBackgraound/';
+        this.page.identifier = '2017/12/23/addBackgraound/';
+        this.page.title = '为Nexo的Next主题添加动态背景';
       };
       function loadComments () {
         var d = document, s = d.createElement('script');
