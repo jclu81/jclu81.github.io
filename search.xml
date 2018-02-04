@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[为Nexo的Next主题添加动态背景]]></title>
-    <url>%2F2018%2F02%2F03%2FaddBackground%2F</url>
-    <content type="text"><![CDATA[这篇文章主要目的是为Nexo的NexT主题添加动态背景，非常简单，但是添加以后的样子会好看一些，因为主题本身周围的空比较大，显得有些单薄。 ##添加方法打开next/layout/_layout.swag文件，在&lt;body&gt;&lt;/body&gt;标签之中的任意地方添加 123&#123;% if theme.canvas_nest %&#125;&lt;script type=&quot;text/javascript&quot; src=&quot;//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js&quot;&gt;&lt;/script&gt;&#123;% endif %&#125; 打开主题配置文件]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[使用Hexo搭建静态博客]]></title>
     <url>%2F2018%2F01%2F10%2FHexo%2F</url>
     <content type="text"><![CDATA[之前作者一直使用jekyll建立博客，被安利了hexo之后进行了尝试，发现果然要比jekyll好用简单的多，因此也把转移的过程简单写了一份攻略，供大家参考。 使用Hexo建立博客之前有使用jekyll建立过博客，过程比较麻烦，而且因为jekyll使用的是ruby，而我对ruby不是很了解，所以修改起来很麻烦。hexo同样是建立静态博客的程序，但是因为其用的是nodejs所以安装和修改都要比jekyll简单。 安装HexoHexo的安装需要nodejs的支持，所以首先要安装nodejs。在有了nodejs之后，就可以用npm命令了。使用npm install hexo-cli -g命令安装hexo，-g参数是全局安装。使用hexo init blog初始化目录。命令结束后产生一个叫blog的目录，进入目录后运行npm install，这个命令会根据package.json文件自动安装依赖，非常的容易，这也是nodejs很火的一个原因。运行hexo g[enerate]会生成一个public的文件，这个文件包含了网页的所有内容，类似c语言的编译。完成后运行hexo s[erver]就可以运行网页了。运行后可以从localhost:4000端口查看。可以看到自带的网页布局就已经很好看了。 模版尽管自带的网页就已经不错了，但是想要更漂亮还是需要模版。我选择了很有名的next模版，界面简单，功能很全而且说明清晰。hexo和jekyll又一个很大的区别就是jekyll不同的模版配置麻烦，但是对hexo来说，如果hexo是人的话，那么模版就像衣服一样，可以随便换。只需要在配置文件里做一下小小的更改就可以。讲模版（主题）下载到themes文件下面，直接修改_config.yml就可以了。 部署hexo d命令可以用来部署，但是需要提前安装插件npm install hexo-deployer-git --save。–save表示将这个插件加入package.json文件。之后在配置中添加 12345deploy: type: git repo: &lt;repository url&gt; branch: [branch] message: [message] 如果github主页已经关联了域名的话需要将CNAME放在resource文件夹下，并在CNAME中添加域名。 参考文档Hexo中文文档Hexo主页如何搭建一个独立博客——简明Github Pages与Hexo教程Next使用文档]]></content>

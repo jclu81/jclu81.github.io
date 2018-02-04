@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-03T09:45:26.000Z</updated>
+  <updated>2018-02-03T07:15:57.293Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>为Nexo的Next主题添加动态背景</title>
-    <link href="http://yoursite.com/2018/02/03/addBackground/"/>
-    <id>http://yoursite.com/2018/02/03/addBackground/</id>
-    <published>2018-02-03T09:45:26.000Z</published>
-    <updated>2018-02-03T09:45:26.000Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a><!-- more --><p>这篇文章主要目的是为Nexo的NexT主题添加动态背景，非常简单，但是添加以后的样子会好看一些，因为主题本身周围的空比较大，显得有些单薄。<br><!-- more --></p><p>##添加方法<br>打开<code>next/layout/_layout.swag</code>文件，在<code>&lt;body&gt;&lt;/body&gt;</code>标签之中的任意地方添加</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if theme.canvas_nest %&#125;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure><p>打开主题配置文件</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;!-- more --&gt;
-&lt;p&gt;这篇文章主要目的是为Nexo的NexT主题添加动态背景，非常简单，但是添加以后的样子会好看一些，因为主题本身周围的空比较大，显得有些单薄。&lt;br&gt;&lt;!-- more --&gt;&lt;/p&gt;
-&lt;p&gt;##添加方法&lt;br&gt;打
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>使用Hexo搭建静态博客</title>
