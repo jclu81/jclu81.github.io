@@ -18,8 +18,8 @@
   
   <entry>
     <title>使用Hexo搭建静态博客</title>
-    <link href="http://yoursite.com/2018/01/10/Hexo/"/>
-    <id>http://yoursite.com/2018/01/10/Hexo/</id>
+    <link href="http://yoursite.com/2018/01/10/build-blog-by-hexo/"/>
+    <id>http://yoursite.com/2018/01/10/build-blog-by-hexo/</id>
     <published>2018-01-11T00:29:00.000Z</published>
     <updated>2018-02-03T07:15:57.293Z</updated>
     
@@ -44,8 +44,8 @@
   
   <entry>
     <title>如何使用Make编写MakeFile</title>
-    <link href="http://yoursite.com/2017/12/10/makefile/"/>
-    <id>http://yoursite.com/2017/12/10/makefile/</id>
+    <link href="http://yoursite.com/2017/12/10/how-to-use-makefile/"/>
+    <id>http://yoursite.com/2017/12/10/how-to-use-makefile/</id>
     <published>2017-12-11T02:49:00.000Z</published>
     <updated>2018-02-03T07:07:43.271Z</updated>
     
@@ -70,8 +70,8 @@
   
   <entry>
     <title>使用jekyll搭建静态博客</title>
-    <link href="http://yoursite.com/2017/02/21/jekyll/"/>
-    <id>http://yoursite.com/2017/02/21/jekyll/</id>
+    <link href="http://yoursite.com/2017/02/21/build-blog-by-jekyll/"/>
+    <id>http://yoursite.com/2017/02/21/build-blog-by-jekyll/</id>
     <published>2017-02-22T00:29:00.000Z</published>
     <updated>2018-02-03T07:15:23.831Z</updated>
     
