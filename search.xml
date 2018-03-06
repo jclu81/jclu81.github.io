@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CS503 Note]]></title>
+    <url>%2F2018%2F03%2F03%2Fcs503-note%2F</url>
+    <content type="text"><![CDATA[This is a Note for CS503. 理论课Front End Web 1.0: 静态HTML -&gt; Javascript &amp; CSS; CGI(common gateway interface) 有程序操作，返回输出给浏览器；每个request需要一个程序处理，无法处理并发; Servlet: 绑定Html和程序，通过程序改变网页内容=JAVA + HTML; ASP，JSP，PHP；结合HTML和程序. JSP = HTML + JAVA; 支持语法检查; Ajax&amp;JQuery: 异步加载；MVC: 设计模式;(前端后端需要合作，不能分离工作) Node: Client-side MVC; 分离前后端，只传输数据 -&gt; Angular 和 React出现 React: 1.One way data flow;2.Vitual DOM;3.JSX Node/Express多线程切换context的代价大;单线程可以避免这种消耗; Node是在server端运行javascript的环境，Express是一个简化搭建服务器的框架。 Express 中间件的思想，连接不同组件。 NoSQL Key-value Store: Redis,Dynamo Document-based Store: MongoDB Column-based Store: BigTable, HBase, Cassandra CAP Theorem: Consistensy, Availability, Patition-tolerance MongoDBDocument-oriented Database Map nicely to programming language data types Enbeded documents reduce the need of joins Dynamic schema Store in Bson files MongoDB -&gt; databases -&gt; collection -&gt; documents PROs: Simple use/Faster/Easier and faster integrationCONs: Cannot be used for heavy and complex transactions systems. Using pyMongo to connect python with MongoDB, manage connections automatically. Message Queue An application framework for sending and receiving messages A way to communicate between applications A way to decouple components A way to offload work Message Queue Protocol AMQP - RabbitMQ STOMP - ActiveMQ XMPP Using pika to connect python with RabbitMQ(CloudAMQP). SOA(Service-oriented Architecture)PROs: Isolation/Ownership/ScalabilityCONs: Complexity/Latency/Test effort/DevOp, on-call API design Web Service APIS: REST/JSON-RPC/XML-RPC Library-based APIS: Javascript Class-based API: Java API, Android API OS Functions and Roytines: File system Hardware APIS RPC(Action oriented) REST(Resource oriented) Using python-jsonrpc in python to create RPC functions Good API: Easy to learn and use with documentaion Hard to misuse Easy to read and maintain Sufficient powerful to meet the requirement Easy to extend API should do one thing and do it well API should be as small as possible Implementation should not impact API(eg.Name) Minimize accessibility of everything Names Matter Documentaion Matters Consider performence consequence of API design decisions Coexist peacefully with platform Web ScrapingApplication Data source Indexer &amp; Crawler Test Tools: XPath Regular Expression Beautiful Soup Basic flow Request web server to retrieve HTML -&gt; requests Parse the HTML into structured data -&gt; lxml Use XPath or Regex to extract infomation -&gt; lxml, re Store the information -&gt; pymongo Integration with RabbitMQ Store scraping tasks temporarily Make scraper running continuously Let scaper feed itself Coordinate multiple scrapers working together Avoid Blocking Limit scraping rate Follow website’s robot.txt User Agent Proxy TOR(The Onion Router) NLP(Natural Language Processing)TF-IDF(Term Frequency-Inverse Document frequency) Machine Leaning Basics Supervised Learning Unsupervised Learning Reinforcement Learning Classification Regression Similarity Ranking Sequence Prediction TensorFlow A deep learning library open-sourced by Google TensorFlow provides primitives for defining functions on tensors and automatically computing their derivatives.]]></content>
+      <categories>
+        <category>note</category>
+        <category>cs503</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[How To Use Docker]]></title>
     <url>%2F2018%2F03%2F02%2Fhow-to-use-docker%2F</url>
     <content type="text"><![CDATA[This post include information of installation and simple useage of docker. Install dockerFor UbuntuDocker needs Ubuntu system which version is higher then 3.10, so first check that: uname -r Using shell sciprt to install: wget -qO- https://get.docker.com/ | sh For macOSUsing Homebrew install Docker: brew cask install docker For All Linux$ #[sudo apt-get remove docker docker-engine docker.io] $ sudo apt-get update $ sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ software-properties-common $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - $ sudo apt-key fingerprint 0EBFCD88 result should be like this: pub 4096R/0EBFCD88 2017-02-22 Key fingerprint = 9DC8 5822 9FC7 DD38 854A E2D8 8D81 803C 0EBF CD88 uid Docker Release (CE deb) &lt;docker@docker.com&gt; sub 4096R/F273FCD8 2017-02-22 if correct, then: $ sudo add-apt-repository \ &quot;deb [arch=amd64] https:// download.docker.com/linux/ubuntu \ $(lsb_release -cs) \ stable&quot; $ sudo apt-get update $ sudo apt-get install docker-ce # Test $ sudo docker run hello-world For other system see Docker installDocker commandsAll Commands with explanation here]]></content>
@@ -36,8 +48,8 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
         <tag>blog</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -89,8 +101,8 @@
         <category>jekyll</category>
       </categories>
       <tags>
-        <tag>blog</tag>
         <tag>jekyll</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>

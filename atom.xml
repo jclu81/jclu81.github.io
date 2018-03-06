@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-02T23:42:39.401Z</updated>
+  <updated>2018-03-04T06:46:17.422Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CS503 Note</title>
+    <link href="http://yoursite.com/2018/03/03/cs503-note/"/>
+    <id>http://yoursite.com/2018/03/03/cs503-note/</id>
+    <published>2018-03-04T06:14:24.000Z</published>
+    <updated>2018-03-04T06:46:17.422Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is a Note for CS503.<br><a id="more"></a></p><h2 id="理论课"><a href="#理论课" class="headerlink" title="理论课"></a>理论课</h2><h3 id="Front-End"><a href="#Front-End" class="headerlink" title="Front End"></a>Front End</h3><ol><li>Web 1.0: 静态HTML -&gt; Javascript &amp; CSS;</li><li>CGI(common gateway interface) 有程序操作，返回输出给浏览器；每个request需要一个程序处理，无法处理并发;</li><li>Servlet: 绑定Html和程序，通过程序改变网页内容=JAVA + HTML;</li><li>ASP，JSP，PHP；结合HTML和程序. JSP = HTML + JAVA; 支持语法检查;</li><li>Ajax&amp;JQuery: 异步加载；MVC: 设计模式;(前端后端需要合作，不能分离工作)</li><li>Node: Client-side MVC; 分离前后端，只传输数据 -&gt; Angular 和 React出现</li></ol><p>React: 1.One way data flow;2.Vitual DOM;3.JSX</p><h3 id="Node-Express"><a href="#Node-Express" class="headerlink" title="Node/Express"></a>Node/Express</h3><p>多线程切换context的代价大;单线程可以避免这种消耗;</p><p>Node是在server端运行javascript的环境，Express是一个简化搭建服务器的框架。</p><p>Express 中间件的思想，连接不同组件。</p><h3 id="NoSQL"><a href="#NoSQL" class="headerlink" title="NoSQL"></a>NoSQL</h3><ul><li>Key-value Store: Redis,Dynamo</li><li>Document-based Store: MongoDB</li><li>Column-based Store: BigTable, HBase, Cassandra</li></ul><p>CAP Theorem: Consistensy, Availability, Patition-tolerance</p><h4 id="MongoDB"><a href="#MongoDB" class="headerlink" title="MongoDB"></a>MongoDB</h4><p>Document-oriented Database</p><ul><li>Map nicely to programming language data types</li><li>Enbeded documents reduce the need of joins</li><li>Dynamic schema</li><li>Store in Bson files</li></ul><p>MongoDB -&gt; databases -&gt; collection -&gt; documents</p><p>PROs: Simple use/Faster/Easier and faster integration<br>CONs: Cannot be used for heavy and complex transactions systems.</p><p>Using pyMongo to connect python with MongoDB, manage connections automatically.</p><h3 id="Message-Queue"><a href="#Message-Queue" class="headerlink" title="Message Queue"></a>Message Queue</h3><ul><li>An application framework for sending and receiving messages</li><li>A way to communicate between applications</li><li>A way to decouple components</li><li>A way to offload work</li></ul><p>Message Queue Protocol</p><ol><li>AMQP - RabbitMQ</li><li>STOMP - ActiveMQ</li><li>XMPP</li></ol><p>Using pika to connect python with RabbitMQ(CloudAMQP).</p><h3 id="SOA-Service-oriented-Architecture"><a href="#SOA-Service-oriented-Architecture" class="headerlink" title="SOA(Service-oriented Architecture)"></a>SOA(Service-oriented Architecture)</h3><p>PROs: Isolation/Ownership/Scalability<br>CONs: Complexity/Latency/Test effort/DevOp, on-call</p><h3 id="API-design"><a href="#API-design" class="headerlink" title="API design"></a>API design</h3><ol><li>Web Service APIS: REST/JSON-RPC/XML-RPC</li><li>Library-based APIS: Javascript</li><li>Class-based API: Java API, Android API</li><li>OS Functions and Roytines: File system</li><li>Hardware APIS</li></ol><ul><li>RPC(Action oriented)</li><li>REST(Resource oriented)</li></ul><p>Using python-jsonrpc in python to create RPC functions</p><p>Good API:</p><ol><li>Easy to learn and use with documentaion</li><li>Hard to misuse</li><li>Easy to read and maintain</li><li>Sufficient powerful to meet the requirement</li><li>Easy to extend</li></ol><ul><li>API should do one thing and do it well</li><li>API should be as small as possible</li><li>Implementation should not impact API(eg.Name)</li><li>Minimize accessibility of everything</li><li>Names Matter</li><li>Documentaion Matters</li><li>Consider performence consequence of API design decisions</li><li>Coexist peacefully with platform</li></ul><h3 id="Web-Scraping"><a href="#Web-Scraping" class="headerlink" title="Web Scraping"></a>Web Scraping</h3><h4 id="Application"><a href="#Application" class="headerlink" title="Application"></a>Application</h4><ul><li>Data source</li><li>Indexer &amp; Crawler</li><li>Test</li></ul><h4 id="Tools"><a href="#Tools" class="headerlink" title="Tools:"></a>Tools:</h4><ol><li>XPath</li><li>Regular Expression</li><li>Beautiful Soup</li></ol><h4 id="Basic-flow"><a href="#Basic-flow" class="headerlink" title="Basic flow"></a>Basic flow</h4><ol><li>Request web server to retrieve HTML -&gt; requests</li><li>Parse the HTML into structured data -&gt; lxml</li><li>Use XPath or Regex to extract infomation -&gt; lxml, re</li><li>Store the information -&gt; pymongo</li></ol><h4 id="Integration-with-RabbitMQ"><a href="#Integration-with-RabbitMQ" class="headerlink" title="Integration with RabbitMQ"></a>Integration with RabbitMQ</h4><ul><li>Store scraping tasks temporarily</li><li>Make scraper running continuously</li><li>Let scaper feed itself</li><li>Coordinate multiple scrapers working together</li></ul><h4 id="Avoid-Blocking"><a href="#Avoid-Blocking" class="headerlink" title="Avoid Blocking"></a>Avoid Blocking</h4><ul><li>Limit scraping rate</li><li>Follow website’s robot.txt</li><li>User Agent</li><li>Proxy</li><li>TOR(The Onion Router)</li></ul><h3 id="NLP-Natural-Language-Processing"><a href="#NLP-Natural-Language-Processing" class="headerlink" title="NLP(Natural Language Processing)"></a>NLP(Natural Language Processing)</h3><p>TF-IDF(Term Frequency-Inverse Document frequency)</p><h3 id="Machine-Leaning-Basics"><a href="#Machine-Leaning-Basics" class="headerlink" title="Machine Leaning Basics"></a>Machine Leaning Basics</h3><ul><li>Supervised Learning</li><li>Unsupervised Learning</li><li>Reinforcement Learning</li></ul><ol><li>Classification</li><li>Regression</li><li>Similarity</li><li>Ranking</li><li>Sequence Prediction</li></ol><h4 id="TensorFlow"><a href="#TensorFlow" class="headerlink" title="TensorFlow"></a>TensorFlow</h4><ul><li>A deep learning library open-sourced by Google</li><li>TensorFlow provides primitives for defining functions on tensors and automatically computing their derivatives.</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is a Note for CS503.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="note" scheme="http://yoursite.com/categories/note/"/>
+    
+      <category term="cs503" scheme="http://yoursite.com/categories/note/cs503/"/>
+    
+    
+      <category term="note" scheme="http://yoursite.com/tags/note/"/>
+    
+  </entry>
   
   <entry>
     <title>How To Use Docker</title>
@@ -90,9 +114,9 @@
       <category term="Hexo" scheme="http://yoursite.com/categories/tutorial/Hexo/"/>
     
     
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
-    
       <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
     
   </entry>
   
@@ -196,9 +220,9 @@
       <category term="jekyll" scheme="http://yoursite.com/categories/tutorial/jekyll/"/>
     
     
-      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
-    
       <category term="jekyll" scheme="http://yoursite.com/tags/jekyll/"/>
+    
+      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
     
   </entry>
   
