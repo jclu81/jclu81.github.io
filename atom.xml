@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-07T02:26:12.892Z</updated>
+  <updated>2018-04-07T02:29:33.607Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,24 +17,50 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>bash-command</title>
+    <link href="http://yoursite.com/2018/04/06/bash-command/"/>
+    <id>http://yoursite.com/2018/04/06/bash-command/</id>
+    <published>2018-04-07T02:27:16.000Z</published>
+    <updated>2018-04-07T02:29:33.607Z</updated>
+    
+    <content type="html"><![CDATA[<p>简单记录一些我常用的Bash命令，和我对他们的理解。<br><a id="more"></a><br><a href="https://www.cheatography.com/davechild/cheat-sheets/linux-command-line/" target="_blank" rel="noopener">Cheat Sheet</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;简单记录一些我常用的Bash命令，和我对他们的理解。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="cheat sheet" scheme="http://yoursite.com/categories/cheat-sheet/"/>
+    
+      <category term="bash" scheme="http://yoursite.com/categories/cheat-sheet/bash/"/>
+    
+    
+      <category term="bash" scheme="http://yoursite.com/tags/bash/"/>
+    
+  </entry>
+  
+  <entry>
     <title>git的简单用法</title>
     <link href="http://yoursite.com/2018/04/06/git-command/"/>
     <id>http://yoursite.com/2018/04/06/git-command/</id>
     <published>2018-04-07T02:26:12.000Z</published>
-    <updated>2018-04-07T02:26:12.892Z</updated>
+    <updated>2018-04-07T02:28:55.814Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a><p>简单记录一些我常用的git命令，和我对他们的理解。<br><!-- more --><br><a href="https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf" target="_blank" rel="noopener">Cheat Sheet</a></p>]]></content>
+    <content type="html"><![CDATA[<p>简单记录一些我常用的git命令，和我对他们的理解。<br><a id="more"></a><br><a href="https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf" target="_blank" rel="noopener">Cheat Sheet</a></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;简单记录一些我常用的git命令，和我对他们的理解。&lt;br&gt;&lt;!-- more --&gt;&lt;br&gt;&lt;a href=&quot;https://services.github.com/on-demand/downloads/github-git-cheat
-      
+      &lt;p&gt;简单记录一些我常用的git命令，和我对他们的理解。&lt;br&gt;
     
     </summary>
     
+      <category term="cheat sheet" scheme="http://yoursite.com/categories/cheat-sheet/"/>
+    
+      <category term="git" scheme="http://yoursite.com/categories/cheat-sheet/git/"/>
+    
+    
+      <category term="git" scheme="http://yoursite.com/tags/git/"/>
     
   </entry>
   

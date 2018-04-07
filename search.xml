@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[bash-command]]></title>
+    <url>%2F2018%2F04%2F06%2Fbash-command%2F</url>
+    <content type="text"><![CDATA[简单记录一些我常用的Bash命令，和我对他们的理解。Cheat Sheet]]></content>
+      <categories>
+        <category>cheat sheet</category>
+        <category>bash</category>
+      </categories>
+      <tags>
+        <tag>bash</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[git的简单用法]]></title>
     <url>%2F2018%2F04%2F06%2Fgit-command%2F</url>
     <content type="text"><![CDATA[简单记录一些我常用的git命令，和我对他们的理解。Cheat Sheet]]></content>
+      <categories>
+        <category>cheat sheet</category>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[React Plugins For Sublime Text3]]></title>
