@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[git的简单用法]]></title>
+    <url>%2F2018%2F04%2F06%2Fgit-command%2F</url>
+    <content type="text"><![CDATA[简单记录一些我常用的git命令，和我对他们的理解。Cheat Sheet]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[React Plugins For Sublime Text3]]></title>
     <url>%2F2018%2F03%2F11%2Freact-plugins-for-sublime-text3%2F</url>
     <content type="text"><![CDATA[This post summarizes some useful plugins for React developer who are using Sublime text3. Sublime React PluginsReact ES6 Snippetscdm→ componentDidMount: fn() { ... } cdup→ componentDidUpdate: fn(pp, ps) { ... } cs→ import cx from &apos;classnames&apos;; cwm→ componentWillMount: fn() { ... } cwr→ componentWillReceiveProps: fn(np) { ... } cwu→ componentWillUpdate: fn(np, ns) { ... } cwun→ componentWillUnmount: fn() { ... } cx→ cx({ ... }) fdn→ React.findDOMNode(...) fup→ forceUpdate(...) gdp→ static defaultProps = { ... } gis→ getInitialState: fn() { return {...} } ism→ isMounted() props→ this.props. pt→ propTypes { ... } rcc→ component skeleton refs→ this.refs. ren→ render: fn() { return ... } rpc→ pure render component skeleton rrc→ redux component skeleton scu→ shouldComponentUpdate: fn(np, ns) { ... } sst→ this.setState({ ... }) state→ this.state. sublime-jsfmt { // autoformat on save &quot;autoformat&quot;: false, // array of extensions for autoformat &quot;extensions&quot;: [&quot;js&quot;, &quot;sublime-settings&quot;], // options for jsfmt &quot;options&quot;: { &quot;preset&quot;: &quot;jquery&quot;, &quot;indent&quot;: { &quot;value&quot;: &quot; &quot; }, // plugins included &quot;plugins&quot;: [ // &quot;esformatter-quotes&quot;, // &quot;esformatter-semicolons&quot;, // &quot;esformatter-braces&quot;, // &quot;esformatter-dot-notation&quot; ] }, &quot;options-JSON&quot;: { &quot;plugins&quot;: [ &quot;esformatter-quotes&quot; ], &quot;quotes&quot;: { &quot;type&quot;: &quot;double&quot; } }, &quot;alert-errors&quot;: true, // path to nodejs &quot;node-path&quot;: &quot;node&quot;, // if true it will format the whole file even if you have a selection active &quot;ignore-selection&quot;: false } babel-sublimeSetting as the default syntaxTo set it as the default syntax for a particular extension: Open a file with that extension,Select View from the menu,Then Syntax -&gt; Open all with current extension as… -&gt; Babel -&gt; JavaScript (Babel).Repeat this for each extension (e.g.: .js and .jsx). Emmet]]></content>
@@ -12,6 +17,18 @@
       <tags>
         <tag>sublime text3</tag>
         <tag>plugins</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[CS504 Note]]></title>
+    <url>%2F2018%2F03%2F03%2Fcs504-note%2F</url>
+    <content type="text"><![CDATA[This is a Note for CS504. Spring Boot Almost 0 manual configuration Fast development and deployment Starter POM VS Individual Dependencies Built-in application metrics, health check, and external configurations Absolutely no code generation and no requirement for XML configuration Code StructureApplication.java Domain Customer.java CustomerRepository.java Service CustomerService.java Web CustomerController.java Java Persistence API(JPA)JavaEE: Hibernate Spring Data]]></content>
+      <categories>
+        <category>note</category>
+        <category>cs504</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
       </tags>
   </entry>
   <entry>
@@ -62,8 +79,8 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>blog</tag>
         <tag>Hexo</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -115,8 +132,8 @@
         <category>jekyll</category>
       </categories>
       <tags>
-        <tag>jekyll</tag>
         <tag>blog</tag>
+        <tag>jekyll</tag>
       </tags>
   </entry>
   <entry>

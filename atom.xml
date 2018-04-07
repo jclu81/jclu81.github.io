@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-03-12T00:33:29.105Z</updated>
+  <updated>2018-04-07T02:26:12.892Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git的简单用法</title>
+    <link href="http://yoursite.com/2018/04/06/git-command/"/>
+    <id>http://yoursite.com/2018/04/06/git-command/</id>
+    <published>2018-04-07T02:26:12.000Z</published>
+    <updated>2018-04-07T02:26:12.892Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a><p>简单记录一些我常用的git命令，和我对他们的理解。<br><!-- more --><br><a href="https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf" target="_blank" rel="noopener">Cheat Sheet</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;简单记录一些我常用的git命令，和我对他们的理解。&lt;br&gt;&lt;!-- more --&gt;&lt;br&gt;&lt;a href=&quot;https://services.github.com/on-demand/downloads/github-git-cheat
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>React Plugins For Sublime Text3</title>
@@ -41,6 +63,30 @@
       <category term="sublime text3" scheme="http://yoursite.com/tags/sublime-text3/"/>
     
       <category term="plugins" scheme="http://yoursite.com/tags/plugins/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CS504 Note</title>
+    <link href="http://yoursite.com/2018/03/03/cs504-note/"/>
+    <id>http://yoursite.com/2018/03/03/cs504-note/</id>
+    <published>2018-03-04T06:14:24.000Z</published>
+    <updated>2018-04-06T03:03:25.542Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is a Note for CS504.<br><a id="more"></a></p><h1 id="Spring-Boot"><a href="#Spring-Boot" class="headerlink" title="Spring Boot"></a>Spring Boot</h1><ul><li>Almost 0 manual configuration</li><li>Fast development and deployment</li><li>Starter POM VS Individual Dependencies</li><li>Built-in application metrics, health check, and external configurations</li><li>Absolutely no code generation and no requirement for XML configuration</li></ul><h1 id="Code-Structure"><a href="#Code-Structure" class="headerlink" title="Code Structure"></a>Code Structure</h1><pre><code>Application.javaDomain    Customer.java    CustomerRepository.javaService    CustomerService.javaWeb    CustomerController.java</code></pre><h1 id="Java-Persistence-API-JPA"><a href="#Java-Persistence-API-JPA" class="headerlink" title="Java Persistence API(JPA)"></a>Java Persistence API(JPA)</h1><p>JavaEE: Hibernate</p><p>Spring Data</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is a Note for CS504.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="note" scheme="http://yoursite.com/categories/note/"/>
+    
+      <category term="cs504" scheme="http://yoursite.com/categories/note/cs504/"/>
+    
+    
+      <category term="note" scheme="http://yoursite.com/tags/note/"/>
     
   </entry>
   
@@ -142,9 +188,9 @@
       <category term="Hexo" scheme="http://yoursite.com/categories/tutorial/Hexo/"/>
     
     
-      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
-    
       <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
     
   </entry>
   
@@ -248,9 +294,9 @@
       <category term="jekyll" scheme="http://yoursite.com/categories/tutorial/jekyll/"/>
     
     
-      <category term="jekyll" scheme="http://yoursite.com/tags/jekyll/"/>
-    
       <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
+    
+      <category term="jekyll" scheme="http://yoursite.com/tags/jekyll/"/>
     
   </entry>
   
