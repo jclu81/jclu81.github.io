@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-07T02:29:33.607Z</updated>
+  <updated>2018-04-08T00:07:42.878Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/04/06/bash-command/"/>
     <id>http://yoursite.com/2018/04/06/bash-command/</id>
     <published>2018-04-07T02:27:16.000Z</published>
-    <updated>2018-04-07T02:29:33.607Z</updated>
+    <updated>2018-04-08T00:07:42.878Z</updated>
     
-    <content type="html"><![CDATA[<p>简单记录一些我常用的Bash命令，和我对他们的理解。<br><a id="more"></a><br><a href="https://www.cheatography.com/davechild/cheat-sheets/linux-command-line/" target="_blank" rel="noopener">Cheat Sheet</a></p>]]></content>
+    <content type="html"><![CDATA[<p>简单记录一些我常用的Bash命令，和我对他们的理解。<br><a id="more"></a><br><a href="https://www.cheatography.com/davechild/cheat-sheets/linux-command-line/" target="_blank" rel="noopener">Cheat Sheet</a></p><h1 id="tar"><a href="#tar" class="headerlink" title="tar"></a>tar</h1><h2 id="Easy-use"><a href="#Easy-use" class="headerlink" title="Easy use"></a>Easy use</h2><ul><li><p>*.tar 用 tar –xvf 解压</p></li><li><p>*.gz 用 gzip -d或者gunzip 解压</p></li><li><p><em>.tar.gz和</em>.tgz 用 tar –xzf 解压</p></li><li><p>*.bz2 用 bzip2 -d或者用bunzip2 解压</p></li><li><p>*.tar.bz2用tar –xjf 解压</p></li><li><p>*.Z 用 uncompress 解压</p></li><li><p>*.tar.Z 用tar –xZf 解压</p></li></ul><h2 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h2><p>这五个是独立的命令，压缩解压都要用到其中一个，可以和别的命令连用但只能用其中一个。</p><pre><code>-c: 建立压缩档案-x：解压-t：查看内容-r：向压缩归档文件末尾追加文件-u：更新原压缩包中的文件</code></pre><p>下面的参数是根据需要在压缩或解压档案时可选的。</p><pre><code>-z：有gzip属性的-j：有bz2属性的-Z：有compress属性的-v：显示所有过程-O：将文件解开到标准输出</code></pre><p>-f: 使用档案名字，切记，这个参数是最后一个参数，后面只能接档案名。参数-f是必须的。</p><h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><h3 id="Look-Up"><a href="#Look-Up" class="headerlink" title="Look Up"></a>Look Up</h3><pre><code>tar -tf aaa.tar.gz //在不解压的情况下查看压缩包的内容</code></pre><h3 id="Compress"><a href="#Compress" class="headerlink" title="Compress"></a>Compress</h3><pre><code>tar –cvf jpg.tar *.jpg //将目录里所有jpg文件打包成tar.jpgtar –czf jpg.tar.gz *.jpg //将目录里所有jpg文件打包成jpg.tar后，并且将其用gzip压缩，生成一个gzip压缩过的包，命名为jpg.tar.gztar –cjf jpg.tar.bz2 *.jpg //将目录里所有jpg文件打包成jpg.tar后，并且将其用bzip2压缩，生成一个bzip2压缩过的包，命名为jpg.tar.bz2tar –cZf jpg.tar.Z *.jpg //将目录里所有jpg文件打包成jpg.tar后，并且将其用compress压缩，生成一个umcompress压缩过的包，命名为jpg.tar.Z</code></pre><h3 id="Decompress"><a href="#Decompress" class="headerlink" title="Decompress"></a>Decompress</h3><pre><code>tar –xvf file.tar //解压 tar包tar -xzvf file.tar.gz //解压tar.gztar -xjvf file.tar.bz2 //解压 tar.bz2tar –xZvf file.tar.Z //解压tar.Z</code></pre>]]></content>
     
     <summary type="html">
     
