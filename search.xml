@@ -98,8 +98,8 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
         <tag>blog</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -151,8 +151,8 @@
         <category>jekyll</category>
       </categories>
       <tags>
-        <tag>blog</tag>
         <tag>jekyll</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -167,6 +167,30 @@
         <tag>helloworld</tag>
         <tag>hero</tag>
         <tag>firstpost</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[CSS Note]]></title>
+    <url>%2F2015%2F03%2F12%2Fcss-note%2F</url>
+    <content type="text"><![CDATA[This is a Note for CSS.]]></content>
+      <categories>
+        <category>note</category>
+        <category>CSS</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[HTML Note]]></title>
+    <url>%2F2015%2F03%2F03%2Fhtml-note%2F</url>
+    <content type="text"><![CDATA[This is a Note for HTML. Intelij 快捷键ALT + ⬆️⬇️ 移动ALT + CMD + ⬇️ 复制CMD + D 删除一行快捷键 声明HTML有多个版本，声明是为了使浏览器了解html版本并能够正确显示。 12&lt;!--HTML5--&gt;&lt;!DOCTYPE html&gt; 基本标签&lt;head&gt;: 设置页面名称，字符格式等信息。&lt;body&gt;: 页面内容。&lt;h1&gt;...&lt;h6&gt;: 标题从大到小。&lt;p&gt;: 段落。&lt;br/&gt;: 换行&lt;a&gt;: 超链接。&lt;img&gt;: 图像。 通用元素属性class: 元素类名。id: 唯一ID。style: 样式。title: 额外信息。 样式表插入方法 外部样式表&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;index_css.css&quot;/&gt; 内部样式表 12345&lt;style type="text/css"&gt; p&#123; color: #7efff8; &#125;&lt;/style&gt; 内联样式表&lt;a style=&quot;color: #ff3922&quot;&gt;123&lt;/a&gt; 超链接本页跳转方法: 12&lt;a name="object1"&gt;object1&lt;/a&gt;&lt;a href="#object1"&gt;&lt;/a&gt; 表格合并单元格: rowspan=&quot;2&quot; colspan=&quot;2&quot; 列表自定义列表: 1234567891011121314&lt;dl&gt; &lt;dt&gt; h1 &lt;/dt&gt; &lt;dd&gt;c1&lt;/dd&gt; &lt;dt&gt; h2 &lt;/dt&gt; &lt;dd&gt;c2&lt;/dd&gt; &lt;dt&gt; h3 &lt;/dt&gt; &lt;dd&gt;c3&lt;/dd&gt;&lt;/dl&gt; 表单GET和POST区别: GET链接带参数，不安全 GET传递有限内容 POST不带参数，安全 POST更耗费资源 GET能够资源定位 框架 frame(过时) frameSet(过时) iframe HTML实体实体参考]]></content>
+      <categories>
+        <category>note</category>
+        <category>HTML</category>
+      </categories>
+      <tags>
+        <tag>note</tag>
       </tags>
   </entry>
 </search>

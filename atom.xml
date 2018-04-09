@@ -97,7 +97,7 @@
     <link href="http://yoursite.com/2018/03/03/cs504-note/"/>
     <id>http://yoursite.com/2018/03/03/cs504-note/</id>
     <published>2018-03-04T06:14:24.000Z</published>
-    <updated>2018-04-06T03:03:25.542Z</updated>
+    <updated>2018-04-07T23:59:16.956Z</updated>
     
     <content type="html"><![CDATA[<p>This is a Note for CS504.<br><a id="more"></a></p><h1 id="Spring-Boot"><a href="#Spring-Boot" class="headerlink" title="Spring Boot"></a>Spring Boot</h1><ul><li>Almost 0 manual configuration</li><li>Fast development and deployment</li><li>Starter POM VS Individual Dependencies</li><li>Built-in application metrics, health check, and external configurations</li><li>Absolutely no code generation and no requirement for XML configuration</li></ul><h1 id="Code-Structure"><a href="#Code-Structure" class="headerlink" title="Code Structure"></a>Code Structure</h1><pre><code>Application.javaDomain    Customer.java    CustomerRepository.javaService    CustomerService.javaWeb    CustomerController.java</code></pre><h1 id="Java-Persistence-API-JPA"><a href="#Java-Persistence-API-JPA" class="headerlink" title="Java Persistence API(JPA)"></a>Java Persistence API(JPA)</h1><p>JavaEE: Hibernate</p><p>Spring Data</p>]]></content>
     
@@ -214,9 +214,9 @@
       <category term="Hexo" scheme="http://yoursite.com/categories/tutorial/Hexo/"/>
     
     
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
-    
       <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
     
   </entry>
   
@@ -320,9 +320,9 @@
       <category term="jekyll" scheme="http://yoursite.com/categories/tutorial/jekyll/"/>
     
     
-      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
-    
       <category term="jekyll" scheme="http://yoursite.com/tags/jekyll/"/>
+    
+      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
     
   </entry>
   
@@ -351,6 +351,54 @@
       <category term="hero" scheme="http://yoursite.com/tags/hero/"/>
     
       <category term="firstpost" scheme="http://yoursite.com/tags/firstpost/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSS Note</title>
+    <link href="http://yoursite.com/2015/03/12/css-note/"/>
+    <id>http://yoursite.com/2015/03/12/css-note/</id>
+    <published>2015-03-13T05:14:24.000Z</published>
+    <updated>2018-04-09T05:16:56.974Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is a Note for CSS.<br><a id="more"></a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is a Note for CSS.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="note" scheme="http://yoursite.com/categories/note/"/>
+    
+      <category term="CSS" scheme="http://yoursite.com/categories/note/CSS/"/>
+    
+    
+      <category term="note" scheme="http://yoursite.com/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML Note</title>
+    <link href="http://yoursite.com/2015/03/03/html-note/"/>
+    <id>http://yoursite.com/2015/03/03/html-note/</id>
+    <published>2015-03-04T06:14:24.000Z</published>
+    <updated>2018-04-09T05:15:46.307Z</updated>
+    
+    <content type="html"><![CDATA[<p>This is a Note for HTML.<br><a id="more"></a></p><h1 id="Intelij-快捷键"><a href="#Intelij-快捷键" class="headerlink" title="Intelij 快捷键"></a>Intelij 快捷键</h1><p>ALT + ⬆️⬇️ 移动<br>ALT + CMD + ⬇️ 复制<br>CMD + D 删除一行<br><a href="https://blog.csdn.net/RainyTooo/article/details/51469126" target="_blank" rel="noopener">快捷键</a></p><h1 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h1><p>HTML有多个版本，声明是为了使浏览器了解html版本并能够正确显示。</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--HTML5--&gt;</span></span><br><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br></pre></td></tr></table></figure><h1 id="基本标签"><a href="#基本标签" class="headerlink" title="基本标签"></a>基本标签</h1><p><code>&lt;head&gt;</code>: 设置页面名称，字符格式等信息。<br><code>&lt;body&gt;</code>: 页面内容。<br><code>&lt;h1&gt;...&lt;h6&gt;</code>: 标题从大到小。<br><code>&lt;p&gt;</code>: 段落。<br><code>&lt;br/&gt;</code>: 换行<br><code>&lt;a&gt;</code>: 超链接。<br><code>&lt;img&gt;</code>: 图像。</p><h1 id="通用元素属性"><a href="#通用元素属性" class="headerlink" title="通用元素属性"></a>通用元素属性</h1><p>class: 元素类名。<br>id: 唯一ID。<br>style: 样式。<br>title: 额外信息。</p><h1 id="样式表插入方法"><a href="#样式表插入方法" class="headerlink" title="样式表插入方法"></a>样式表插入方法</h1><ul><li>外部样式表<br><code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;index_css.css&quot;/&gt;</code></li><li>内部样式表  </li></ul><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span> <span class="attr">type</span>=<span class="string">"text/css"</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="undefined">    p&#123;</span></span><br><span class="line"><span class="undefined">        color: #7efff8;</span></span><br><span class="line"><span class="undefined">    &#125;</span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br></pre></td></tr></table></figure><ul><li>内联样式表<br><code>&lt;a style=&quot;color: #ff3922&quot;&gt;123&lt;/a&gt;</code></li></ul><h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><p>本页跳转方法:</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">name</span>=<span class="string">"object1"</span>&gt;</span>object1<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#object1"</span>&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure><h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><p>合并单元格: <code>rowspan=&quot;2&quot; colspan=&quot;2&quot;</code></p><h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><p>自定义列表:</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dl</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dt</span>&gt;</span></span><br><span class="line">        h1</span><br><span class="line">    <span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dd</span>&gt;</span>c1<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dt</span>&gt;</span></span><br><span class="line">        h2</span><br><span class="line">    <span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dd</span>&gt;</span>c2<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dt</span>&gt;</span></span><br><span class="line">        h3</span><br><span class="line">    <span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">dd</span>&gt;</span>c3<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dl</span>&gt;</span></span><br></pre></td></tr></table></figure><h1 id="表单"><a href="#表单" class="headerlink" title="表单"></a>表单</h1><p>GET和POST区别:</p><ul><li>GET链接带参数，不安全</li><li>GET传递有限内容</li><li>POST不带参数，安全</li><li>POST更耗费资源</li><li>GET能够资源定位</li></ul><h1 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h1><ul><li>frame(过时)</li><li>frameSet(过时)</li><li>iframe</li></ul><h1 id="HTML实体"><a href="#HTML实体" class="headerlink" title="HTML实体"></a>HTML实体</h1><p><a href="http://www.w3school.com.cn/html/html_entities.asp" target="_blank" rel="noopener">实体参考</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This is a Note for HTML.&lt;br&gt;
+    
+    </summary>
+    
+      <category term="note" scheme="http://yoursite.com/categories/note/"/>
+    
+      <category term="HTML" scheme="http://yoursite.com/categories/note/HTML/"/>
+    
+    
+      <category term="note" scheme="http://yoursite.com/tags/note/"/>
     
   </entry>
   
